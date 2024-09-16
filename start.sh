@@ -4,6 +4,8 @@ set -eu
 echo "=> Ensure directories"
 mkdir -p /app/data
 
+[[ ! -f /app/data/env.sh  ]] && cp /app/pkg/env.sh.template /app/data/env.sh
+
 # user overrides
 source /app/data/env.sh
 
