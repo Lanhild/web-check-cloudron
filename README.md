@@ -1,10 +1,8 @@
-# Starter Cloudron App
+# Web-Check Cloudron App
 
 <!-- This is the place for the description of your application. It's usage, description, and potential dependencies. -->
 
-This repository contains the Cloudron app package source for <Project>, a template Cloudron application.
-
-The package aims to set global development standards for Cloudron packages to ensure uniformity and ease of sharing.
+This repository contains the Cloudron app package source for [Web-Check](https://web-check.xyz/), an all-in-one OSINT tool for analysing any website.
 
 ## Configuration
 

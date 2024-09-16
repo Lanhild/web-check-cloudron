@@ -1,0 +1,22 @@
+{
+  "id": "xyz.web-check.cloudronapp",
+  "title": "Web-Check",
+  "author": "Alicia Sykes",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Comprehensive, on-demand open source intelligence for any website",
+  "version": "0.1.0",
+  "upstreamVersion": "1",
+  "minBoxVersion": "7.5.0",
+  "healthCheckPath": "/",
+  "icon": "logo.png",
+  "httpPort": 3000,
+  "addons": {
+    "localstorage": {},
+    "proxyAuth": {}
+  },
+  "manifestVersion": 2,
+  "website": "https://web-check.xyz/",
+  "tags": ["osint", "cybersecurity", "observability", "data"],
+  "documentationUrl": "https://docs.cloudron.io/apps/web-check/",
+  "memoryLimit": 262144000
+}
