@@ -16,7 +16,12 @@
   },
   "manifestVersion": 2,
   "website": "https://web-check.xyz/",
-  "tags": ["osint", "cybersecurity", "observability", "data"],
+  "tags": [
+    "osint",
+    "cybersecurity",
+    "observability",
+    "data"
+  ],
   "documentationUrl": "https://docs.cloudron.io/apps/web-check/",
   "memoryLimit": 262144000
 }

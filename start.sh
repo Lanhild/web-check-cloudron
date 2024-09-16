@@ -13,5 +13,6 @@ echo "=> Setting permissions"
 chown -R cloudron:cloudron /app/data
 
 echo "==> Starting web-check"
-exec gosu cloudron:cloudron node /app/code/web-check/server.js
+cd /app/code/web-check
+exec gosu cloudron:cloudron node server.js
 
